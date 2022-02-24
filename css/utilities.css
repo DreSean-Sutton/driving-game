@@ -1,7 +1,5 @@
 img {
   width: 100%;
-}
-
-.img-layout {
-  width: 10%;
+  max-width: 100%;
+  height: auto;
 }
