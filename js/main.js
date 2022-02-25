@@ -1,8 +1,13 @@
 /*  global data  */
 /* exported data */
 
-const $imgDiv = document.querySelector('#img-div');
+// const $imgDiv = document.querySelector('#img-div');
 
-$imgDiv.addEventListener('keydown', event => {
-
-});
+window.addEventListener('keydown', event => {
+  if (!data.directionsArr.includes(event.key)) {
+    return;
+  }
+//   data.directionsArr.forEach(element => {
+//     if (element !=== )
+//   });
+// });
